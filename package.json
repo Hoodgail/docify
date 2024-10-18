@@ -1,0 +1,19 @@
+{
+  "name": "docify",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build index.ts",
+    "test": "bun test index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/cloudflare": "^2.7.14",
+    "cloudflare": "^3.5.0"
+  }
+}
